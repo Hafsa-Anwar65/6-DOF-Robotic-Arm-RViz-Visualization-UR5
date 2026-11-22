@@ -11,7 +11,7 @@
 [![DOF](https://img.shields.io/badge/DOF-6-success)](#-robot-specification)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-<img src="docs/images/rviz_ur5.png" alt="UR5 robotic arm visualized in RViz" width="800"/>
+<img src="Screenshots/Arm%20Visualzation.PNG" alt="UR5 robotic arm visualized in RViz" width="800"/>
 
 </div>
 
@@ -59,17 +59,11 @@ No physical hardware is required.
 
 <div align="center">
 
-| RViz View | Joint Control Sliders |
+| UR5 Arm in RViz | RViz Global & Display Settings |
 |:---:|:---:|
-| <img src="docs/images/rviz_ur5.png" width="420"/> | <img src="docs/images/joint_sliders.png" width="300"/> |
+| <img src="Screenshots/Arm%20Visualzation.PNG" width="420"/> | <img src="Screenshots/Global%20Display%20Settings.PNG" width="420"/> |
 
-| TF Frames | URDF Validation |
-|:---:|:---:|
-| <img src="docs/images/tf_frames.png" width="420"/> | <img src="docs/images/check_urdf.png" width="420"/> |
-
-<img src="docs/images/demo.gif" alt="UR5 arm moving in RViz" width="700"/>
-
-*Moving the joints through the GUI sliders while orbiting the camera in RViz.*
+<img src="Screenshots/Capture.PNG" width="700"/>
 
 </div>
 
@@ -180,8 +174,7 @@ ur5_6dof_description/
 │   └── ur5_rviz.launch         # Brings up the full visualization pipeline
 ├── rviz/
 │   └── ur5.rviz                # Saved RViz configuration
-└── docs/
-    └── images/                 # Screenshots and demo GIF used in this README
+└── Screenshots/                # Images used in this README
 ```
 
 ---
@@ -215,7 +208,7 @@ sudo apt install ros-noetic-xacro \
 cd ~/catkin_ws/src
 
 # 2. Clone this repository as a ROS package
-git clone https://github.com/Hafsa-Anwar65/UR5-6-DOF-Robotic-Arm-RViz-Visualization.git ur5_6dof_description
+git clone https://github.com/Hafsa-Anwar65/6-DOF-Robotic-Arm-RViz-Visualization-UR5.git ur5_6dof_description
 
 # 3. Build the workspace
 cd ~/catkin_ws
@@ -348,7 +341,6 @@ This project demonstrates:
 ## 🙏 Credits
 
 - **UR5 mesh files** come from [ros-industrial/universal_robot](https://github.com/ros-industrial/universal_robot) and are distributed under the BSD-3-Clause license. Universal Robots and UR5 are trademarks of Universal Robots A/S. This is an independent educational project and is not affiliated with Universal Robots.
-- Developed as part of **ROS Lab 11** for the **BS Robotics & Intelligent Systems** programme, Department of Electrical Engineering, **Bahria University Karachi Campus**.
 
 ---
 
